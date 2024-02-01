@@ -1,0 +1,138 @@
+﻿@{
+    Layout = null; // Disable layout for this page
+}
+
+
+    @model LoginMVC.Models.Login;
+
+
+    @{
+        ViewData["Title"] = "Login";
+    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- Include SweetAlert from CDN -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/LoginMVC.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <style>
+        .login, .image {
+            min-height: 100vh
+        }
+        body
+       
+
+        .bg-image {
+            background-image: url("https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_1280.jpg");
+            background-size: cover;
+            background-position: center center
+        }
+    </style>
+
+</head> 
+<body style="margin:auto;padding:0">
+
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <div class="col-md-6 d-none d-md-flex bg-image"></div>
+            <div class="col-md-6 bg-light">
+                <div class="login d-flex align-items-center py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-7 col-xl-6 mx-auto">
+                                <h3 class="display-6 text-center fw-bold">LOGIN</h3> <br>
+
+
+                                <form asp-action="Index" method="post">
+                                    <div class="form-group mb-3">
+                                        <label asp-for="EmailId" class="form-label fw-bold"></label>
+                                        <input asp-for="EmailId" type="email" class="form-control rounded-pill border-0 shadow-sm px-4" placeholder="Email address" required autofocus />
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label asp-for="Password" class="form-label fw-bold"></label>
+                                        <input asp-for="Password" type="password" placeholder="Password" class="form-control rounded-pill border-0 shadow-sm px-4 text-danger" required autofocus />
+                                    </div>
+                                    <button type="submit" class="btn btn-danger btn-block text-uppercase mb-2 rounded-pill shadow-sm" asp-controller="Logins" asp-action="Login">Sign In</button>
+                                    <a href="#" class="text-primary" style="float:right"> Forgot Password</a>
+                                </form>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+@*     <div>
+        <p style="text-align:center;font-size:25px;font-weight:bold;"> WelCome To Vita</p>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-2">Login</h2>
+                        <form asp-action="Index" method="post">
+                            <div class="mb-3">
+                                <label asp-for="EmailId" class="form-label"></label>
+                                <input asp-for="EmailId" id="tbemail" class="form-control" required />
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="Password" class="form-label"></label>
+                                <input asp-for="Password" id="tbpwd" type="password" class="form-control" required />
+                            </div>
+                        <button type="submit" class="btn btn-primary" id="btnsubmit" asp-controller="Logins" asp-action="Login">Login</button>
+                            <a href="#" style="float:right"> Forgot Password</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ *@
+    @{
+        var a = TempData["msg"];
+        
+    }
+    <script>
+        if (@a===1)
+        {
+            Swal.fire({
+                title: "Login Successful",
+                icon: "success",
+                confirmButtonText: "OK",
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Redirect to another action method
+                    window.location.href = "/Logins/Add";
+                }
+            });
+        }
+        else
+        {
+            Swal.fire
+                ({
+                    title: "Login Faield",
+                    icon: "warning",
+                    button: "Retry!",
+                });
+            
+        }
+    </script>
+  </body>
+  </html>

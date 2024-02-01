@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LoginMVC
+build_property.RootNamespace = LoginMVC
+build_property.ProjectDir = D:\01_FIL_Training\02_CodePractice\01_MVC\vitaPractice\VitaPractice\LoginMVC\LoginMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\01_FIL_Training\02_CodePractice\01_MVC\vitaPractice\VitaPractice\LoginMVC\LoginMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/01_FIL_Training/02_CodePractice/01_MVC/vitaPractice/VitaPractice/LoginMVC/LoginMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/01_FIL_Training/02_CodePractice/01_MVC/vitaPractice/VitaPractice/LoginMVC/LoginMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/01_FIL_Training/02_CodePractice/01_MVC/vitaPractice/VitaPractice/LoginMVC/LoginMVC/Views/Logins/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5zXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/01_FIL_Training/02_CodePractice/01_MVC/vitaPractice/VitaPractice/LoginMVC/LoginMVC/Views/Logins/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5zXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/01_FIL_Training/02_CodePractice/01_MVC/vitaPractice/VitaPractice/LoginMVC/LoginMVC/Views/Log/FetchRequestData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXEZldGNoUmVxdWVzdERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/01_FIL_Training/02_CodePractice/01_MVC/vitaPractice/VitaPractice/LoginMVC/LoginMVC/Views/Log/Log.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXExvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/01_FIL_Training/02_CodePractice/01_MVC/vitaPractice/VitaPractice/LoginMVC/LoginMVC/Views/Log/LogsXML.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXExvZ3NYTUwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/01_FIL_Training/02_CodePractice/01_MVC/vitaPractice/VitaPractice/LoginMVC/LoginMVC/Views/Log/RequestData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXFJlcXVlc3REYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/01_FIL_Training/02_CodePractice/01_MVC/vitaPractice/VitaPractice/LoginMVC/LoginMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/01_FIL_Training/02_CodePractice/01_MVC/vitaPractice/VitaPractice/LoginMVC/LoginMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/01_FIL_Training/02_CodePractice/01_MVC/vitaPractice/VitaPractice/LoginMVC/LoginMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/01_FIL_Training/02_CodePractice/01_MVC/vitaPractice/VitaPractice/LoginMVC/LoginMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/01_FIL_Training/02_CodePractice/01_MVC/vitaPractice/VitaPractice/LoginMVC/LoginMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-afonf7idy6
